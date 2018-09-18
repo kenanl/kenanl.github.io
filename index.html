@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Kenan Li</title>
+		<title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
@@ -14,9 +15,13 @@
     		</ul>
 		</nav>
 		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Kenan Li!</h1>
-    		</div><!-- /.blurb -->
+      			---
+			layout: default
+			title: Kenan Li
+			---
+			<div class="blurb">
+				<h1>Hi there, I'm Kenan Li!</h1>
+			</div><!-- /.blurb -->
 		</div><!-- /.container -->
 		<footer>
     		<ul>
